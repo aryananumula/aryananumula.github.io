@@ -1,9 +1,16 @@
-table {
-    border-collapse: collapse;
-    width: 100%;
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+
+/* Button bezeled effect */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }

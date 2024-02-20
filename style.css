@@ -44,15 +44,11 @@ a {
     text-decoration: inherit
 }
 
-div {
-    white-space: pre-wrap;
-}
-
 b,strong {
     font-weight: bolder
 }
 
-code,kbd,pre,samp {
+code,kbd,samp {
     font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
     font-size: 1em
 }
@@ -138,7 +134,7 @@ summary {
     display: list-item
 }
 
-blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre {
+blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p {
     margin: 0
 }
 
@@ -1557,7 +1553,7 @@ html {
     margin-bottom: 1.25em!important
 }
 
-code[class*=language-],pre[class*=language-] {
+code[class*=language-][class*=language-] {
     --tw-text-opacity: 1;
     color: rgb(250 250 250/var(--tw-text-opacity))
 }
